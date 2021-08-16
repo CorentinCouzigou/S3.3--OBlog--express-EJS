@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>OBlog</title>
+</head>
+
+<body>
+    <h1>Page not found</h1>
+    <button><a href="/">Retour à la page d'accueil</a></button>
+    <div class="rond"> 404 </div>
+    <style>
+
+       .rond {
+        margin-top: 5rem;
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        color:orange;
+        background-color: gray;
+        padding:2rem;
+        text-align: center;
+        font-size: 5.5rem;
+        -webkit-animation: 8s linear 0s infinite alternate move_eye;
+          animation: 8s linear 0s infinite alternate move_eye;
+       }
+@-webkit-keyframes move_eye { from { margin-left:-20%; } to { margin-left:100%; }  }
+        @keyframes move_eye { from { margin-left:-20%; } to { margin-left:100%; }  }
+        h1 {
+            color: gray;
+            background-color: orange;
+            padding: 2rem;
+            font-size: 1.5rem;
+            border: 2px solid gray;
+        }
+
+        button {
+            border: 3px solid orange;
+            border-radius: 2rem;
+            color: gray;
+            font-size: 1.2rem;
+            background-color: white;
+            padding: 2rem;
+        }
+    </style>
+</body>
+</html>
